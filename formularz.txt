@@ -1,0 +1,51 @@
+<form action="mailto:twój_adres_poczty@domena" method="post" enctype="text/plain"><div>
+<!-- Podstawowe pole tekstowe -->
+<input name="Imiê">Podaj swoje imiê<br>
+<input name="Nazwisko">Podaj swoje nazwisko
+<!-- Pole typu RADIO -->
+<p>Podaj swoj¹ p³eæ:</p>
+<input type="radio" name="P³eæ" value="Kobieta">Kobieta
+<input type="radio" name="P³eæ" value="Mê¿czyzna">Mê¿czyzna
+<!-- Pole typu RADIO -->
+<p>Ile masz lat?</p>
+<input type="radio" name="Wiek" value="mniej ni¿ 15">mniej ni¿ 15<br>
+<input type="radio" name="Wiek" value="15-19">15-19<br>
+<input type="radio" name="Wiek" value="20-29">20-29<br>
+<input type="radio" name="Wiek" value="30-39">30-39<br>
+<input type="radio" name="Wiek" value="40-60">40-60<br>
+<input type="radio" name="Wiek" value="wiêcej ni¿ 60">wiêcej ni¿ 60 
+<!-- Pole typu CHECKBOX -->
+<p>Jak¹ lubisz muzykê (mo¿esz zaznaczyæ wiêcej mo¿liwoœci)?</p>
+<input type="checkbox" name="Muzyka" value="Rock">Rock<br>
+<input type="checkbox" name="Muzyka" value="Heavy Metal">Heavy Metal<br>
+<input type="checkbox" name="Muzyka" value="Pop">Pop<br>
+<input type="checkbox" name="Muzyka" value="Techno">Techno<br>
+<input type="checkbox" name="Muzyka" value="Muzyka powa¿na">Muzyka powa¿na<br>
+<input type="checkbox" name="Muzyka" value="Inna">Inna (podaj jaka):
+<input name="Muzyka">
+<!-- Lista rozwijalna (typ podstawowy) z zaznaczon¹ opcj¹ domyœln¹ -->
+<p>Jakiej przegl¹darki internetowej u¿ywasz?</p>
+<select name="Przegl¹darka">
+	<option selected>Internet Explorer</option>
+	<option>Netscape</option>
+	<option>Opera</option>
+	<option>Mozilla</option>
+	<option>Inna</option>
+</select>
+<!-- Lista rozwijalna (typ rozszerzony) z zaznaczon¹ opcj¹ domyœln¹ i zmniejszon¹ wysokoœci¹ -->
+<p>Jakie znasz systemy operacyjne (mo¿esz wybraæ kilka opcji trzymaj¹c klawisz Ctrl)?</p>
+<select name="System operacyjny" multiple size="3">
+	<option selected>Dos</option>
+	<option>Windows</option>
+	<option>Linux</option>
+	<option>Inny</option>
+</select>
+<!-- Pole komentarza (o powiêkszonych rozmiarach oraz z tekstem domyœlnym) -->
+<p>Podaj swój komentarz:</p>
+<textarea name="Komentarz" cols="50" rows="10">Proszê, wpisz tutaj jakiœ komentarz...</textarea>
+<br><br><br>
+<!-- Przycisk WYŒLIJ -->
+<input type="submit" value="Wyœlij formularz">
+<!-- Przycisk WYCZYŒÆ DANE -->
+<input type="reset" value="Wyczyœæ dane">
+</div></form>

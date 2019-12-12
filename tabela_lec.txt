@@ -1,0 +1,23 @@
+<html>
+<head><meta charset="utf-8"></head><body>
+
+	<table border=1>
+<th>system dziesiêtny</th> <th>system binarny </th>
+<tr><td style="background-color:#999999; color:#000033; text-align:left; font-size:">1</td> <td style="background-color:#ffe6f9; color:#660000; text-align:left">0001</td>
+<tr><td style="background-color:#ffffff; color:#00004d; text-align:center">2</td> <td style="background-color:#ffccf2; color:#800000; text-align:center">0010</td>
+<tr><td style="background-color:#f2f2f2; color:#000066; text-align:right">3</td> <td style="background-color:#ffccf2; color:#990000; text-align:right">0011</td>
+<tr><td style="background-color:#e6e6e6; color:#000080; text-align:left">4</td> <td style="background-color:#ff99e6; color:#b30000; text-align:left">0100</td>
+<tr><td style="background-color:#d9d9d9; color:#000099; text-align:center">5</td> <td style="background-color:#ff80df; color:#cc0000; text-align:center">0101</td>
+<tr><td style="background-color:#cccccc; color:#0000b3; text-align:right">6</td> <td style="background-color:#ff66d9; color:#e60000; text-align:right">0110</td>
+<tr><td style="background-color:#bfbfbf; color:#0000cc; text-align:left">7</td> <td style="background-color:#ff4dd2; color:#ff0000; text-align:left">0111</td>
+<tr><td style="background-color:#b3b3b3; color:#0000e6; text-align:center">8</td> <td style="background-color:#ff33cc; color:#ff1a1a; text-align:center">1000</td>
+<tr><td style="background-color:#a6a6a6; color:#0000ff; text-align:right">9</td> <td style="background-color:#ff1ac6; color:#ff3333; text-align:right">1001</td>
+<tr><td style="background-color:#8c8c8c; color:#1a1aff; text-align:left">10</td> <td style="background-color:#e600ac; color:#ff4d4d; text-align:left">1010</td>
+<tr><td style="background-color:#808080; color:#3333ff; text-align:center">11</td> <td style="background-color:#b30086; color:#ff6666; text-align:center">1011</td>
+<tr><td style="background-color:#737373; color:#4d4dff; text-align:right">12</td> <td style="background-color:#990073; color:#ff8080; text-align:right">1100</td>
+<tr><td style="background-color:#666666; color:#6666ff; text-align:left">13</td> <td style="background-color:#800060; color:#ff9999; text-align:left">1101</td>
+<tr><td style="background-color:#404040; color:#8080ff; text-align:center">14</td> <td style="background-color:#66004d; color:#ffb3b3; text-align:center">1110</td>
+<tr><td style="background-color:#1a1a1a; color:#e6e6ff; text-align:right">15</td> <td style="background-color:#4d0039; color:#ffcccc; text-align:right">1111</td>
+</table>
+</body>
+</html>
